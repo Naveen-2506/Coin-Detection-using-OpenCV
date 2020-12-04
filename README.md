@@ -1,5 +1,5 @@
 # Coin Detection using OpenCV
-This is a program to detect coins in an image using Hough Circle Transform and note that the parameters like minDist, minRadius, maxRadius can vary from image to image.
+In this program to detect coins in an image using Hough Circle Transform and note that the parameters like minDist, minRadius, maxRadius can vary from image to image.
 # Algorithm for finding the coins that fall under the same st.line (Vertical)
 1. I have devised my own algorithm for finding the coins that fall under the same st.line (Vertical). 
 2. We find all the circles(coins) whose x-coordinates of the centres have difference less than 40(say). 
